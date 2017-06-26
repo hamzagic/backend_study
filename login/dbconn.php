@@ -1,12 +1,12 @@
 <?php
 
-$server: "localhost";
+$server="localhost";
 $db="users";
 $admin="root";
 $pass="kaspa";
-$arr[];
+$arr = [];
 
-$con = new mysqli ($server, $db, $admin, $pass);
+$con = new mysqli ($server, $admin, $pass, $db);
 
 if ($con->connect_error) {
 	echo "Error: ".$con->connect_error;
