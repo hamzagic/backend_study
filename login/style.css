@@ -210,6 +210,21 @@ header .nav-login a {
 
 }
 
+header .nav-logged a {
+  display: block;
+  width: 100px;
+  height: 60px;
+  float: left;
+  border: none;
+  background-color: #fff;
+  font-family: verdana;
+  font-size: 40px;
+  color: #111;
+  line-height: 63px;
+  cursor: pointer;
+
+}
+
 .main-container {
     padding-top: 40px;
 }
@@ -265,3 +280,4 @@ header .nav-login a {
    background-color: #111;
    
 }
+
