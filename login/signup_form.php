@@ -17,7 +17,7 @@ $hashedPwd = password_hash($pwd, PASSWORD_DEFAULT);
 
 //check empty fields
 if (empty($first) || empty($last) || empty($username) || empty($email) || empty($pwd)) {
-	header("Location: signup.php?error=empty");	
+	header("Location: signup.php?error=empty");
 	exit();
 
  }/*elseif (ctype_space($first) || (ctype_space($last) || (ctype_space($username) || (ctype_space($email) || (ctype_space($pwd)) {
@@ -55,7 +55,6 @@ else {
 
 
 
-//header('Location: signup.php');
 
 
 

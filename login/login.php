@@ -27,7 +27,7 @@ if ($resultCheck == 1) {
 
 //session_register('username');
 $_SESSION['login_user'] = $email;
-
+$_SESSION['logged'] = true;
 header("Location: welcome.php");
 	
 } else {

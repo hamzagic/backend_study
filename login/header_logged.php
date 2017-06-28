@@ -12,8 +12,7 @@
 	<header>
 
 		<nav>
-			<div class="main-wrapper"></div>
-				
+							
 					<div class="nav-logged">
 						
 						<a href="logout.php">Logout</a>

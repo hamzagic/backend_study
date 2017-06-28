@@ -1,5 +1,8 @@
 <?php
 include_once 'header.php';
+
+session_start();
+//include_once 'logout.php';
 ?>
 
 	<section class="main-container">
@@ -12,7 +15,18 @@ include_once 'header.php';
 
 
 
-<div id="resp"></div>
+<div id="resp">
+
+<?php 
+
+if (!$_SESSION['logged']) {
+	echo "Not logged in";
+}
+	
+//}
+?>
+
+</div>
 
 <?php
 include_once 'footer.php';
