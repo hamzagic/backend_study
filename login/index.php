@@ -1,5 +1,6 @@
 <?php
 include_once 'header.php';
+setcookie("name", "not_logged", time()+1530157858, "/", 0);
 
 session_start();
 //include_once 'logout.php';
@@ -19,7 +20,7 @@ session_start();
 
 <?php 
 
-if (!$_SESSION['logged']) {
+if (!isset($_SESSION['logged'])) {
 	echo "Not logged in";
 }
 	
