@@ -105,6 +105,21 @@ input, select {
 
 a {
     text-decoration: none;
+    font-size: 10px;
+}
+
+h4 a {
+  display: block;
+  width: 100px;
+  height: 40px;
+  float: left;
+  border: none;
+  background-color: #fff;
+  font-family: verdana;
+  font-size: 10px;
+  color: #111;
+  line-height: 63px;
+  cursor: pointer;
 }
 
 body{
@@ -218,12 +233,13 @@ header nav .nav-logged a{
   border: none;
   background-color: #fff;
   font-family: verdana;
-  font-size: 20px;
+  font-size: 10px;
   color: #111;
   line-height: 63px;
   cursor: pointer;
 
 }
+
 
 .main-container {
     padding-top: 40px;
@@ -286,5 +302,26 @@ header nav .nav-logged a{
    font-size: 16px;
    color: #111;
    margin:50px;
+}
+
+.chat{
+
+  margin: 0 auto;
+  font-size: 20px;
+}
+
+header nav .nav-options ul li h4{
+  display: block;
+  width: 10px;
+  height: 60px;
+  float: right;
+  border: none;
+  background-color: #fff;
+  font-family: verdana;
+  font-size: 10px;
+  color: #111;
+  line-height: 63px;
+  cursor: pointer;
+
 }
 

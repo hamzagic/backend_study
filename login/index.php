@@ -1,6 +1,6 @@
 <?php
 include_once 'header.php';
-setcookie("name", "not_logged", time()+1530157858, "/", 0);
+setcookie("name", "not_logged", time()+1530157858, "/", "localhost:3306", 0);
 
 session_start();
 //include_once 'logout.php';
