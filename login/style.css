@@ -333,3 +333,13 @@ header nav .nav-options ul li h4{
 
 }
 
+#errors {
+  font-family: verdana;
+  font-size: 20px;
+  color: red;
+  background-color: yellow;
+  width: 400px;
+  margin-left: 100px;
+
+}
+
