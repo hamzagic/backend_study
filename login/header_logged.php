@@ -12,15 +12,15 @@
 	<header>
 		
 		<nav>
-			<div class="nav-options">
-				<ul id="test">
+			<!--<div class="nav-options">-->
+				<ul class="home">
 					<li><a href="profile.php">Create Profile</a></li>
-					<li><a href="view_prof.php">Profiles</a></li>
+					<li><a href="view_prof.php">Edit Profile</a></li>
 					<li><a href="search_prof.php">Search Profile</a></li>
 					<li><a href="create_event.php">Create Event</a></li>
 
 				</ul>
-			</div>
+			<!--</div>-->
 
 				<div class="chat"><ul><li><a href="chat.php">Live support</a></li></ul></div>
 							

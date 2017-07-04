@@ -4,7 +4,7 @@ include_once 'header_logged.php';
 
   <section class="main-container">
 
-    <div class="main-wrapper"><h2>Profiles</h2></div>
+    <div class="main-wrapper"><h2>Edit Profile</h2></div>
    
 
   </section>

@@ -225,6 +225,14 @@ header .nav-login a {
 
 }
 
+.home {
+
+  font-family: verdana;
+  font-size: 30px;
+  margin: 10px;
+
+}
+
 header nav .nav-logged a{
   display: block;
   width: 100px;

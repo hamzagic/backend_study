@@ -14,7 +14,7 @@
 		<nav>
 			<div class="main-wrapper"></div>
 				<ul>
-					<li><a href="index.php">Home</a></li>
+					<li class="home"><a href = "login.php">Home</a></li>
 					<div class="nav-login">
 						<form action="login.php" method="post">
 							<input type="text" name="user" placeholder="Username/Email">
